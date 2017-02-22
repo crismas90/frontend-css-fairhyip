@@ -20,6 +20,10 @@ p {
 	color: #d7cfc8;
 	font-size: 11px;
 }
+a {
+	color: #d7cfc8;
+
+}
 .wrapper {
 	width: 1000px;
 	margin: auto;
@@ -42,7 +46,14 @@ p {
 	height: 40px;
 	text-align: center;
 	padding: 20px 0 0 0;
-
+}
+.menu-item {
+	margin: 0 15px;
+}
+.menu-item a {
+	text-decoration: none;
+	font-family: 'Georgia';
+	color: #461500;
 }
 .lang-list {
 	position: absolute;
