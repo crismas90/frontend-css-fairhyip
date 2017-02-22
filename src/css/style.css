@@ -22,10 +22,16 @@ p {
 }
 .wrapper {
 	width: 1000px;
+	margin: auto;
+}
+.footer {
+	width: 1000px;
+	margin: auto;
 }
 
 .header {
 	position: relative;
+	margin: 20px 0 40px 0;
 }
 .mainmenu{
 	background: #f3f2f1;
@@ -34,6 +40,8 @@ p {
 	bottom: 0;
 	width: 700px;
 	height: 40px;
+	text-align: center;
+	padding: 20px 0 0 0;
 
 }
 .lang-list {
@@ -41,12 +49,11 @@ p {
 	left: 0;
 	top: 0;
 }
-.lang-list li {
+.lang-list li,
+.menu-list li {
 	display: inline-block;
 }
-.menu-list li{
-	display: inline-block;
-}
+
 .auth {
 	position: absolute;
 	right: 0;
@@ -57,6 +64,28 @@ p {
 	color: #dfc04f;
 	font-size: 14pt;
 	font-style: italic;
+	font-family: 'Georgia';
 
 }
+.promo {
+	width: 1000px;
+	background: #5b2f10;
+}
+.promo img {
+	width: 45px; 
+	height: 90px;
+	float: left;
+	margin: 60px 25px 60px 0;
+}
+
+.promo h1 {
+	
+	margin: 60px 0 25px 100px;
+}
+.promo p {
+	
+	margin: 0 0 25px 100px;
+}
+
+
 
