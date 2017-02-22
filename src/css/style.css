@@ -1,0 +1,62 @@
+body {
+	background-image: url(../images/bg_body.jpg);
+	font-family: 'Verdana';
+}
+h1,h2 {
+	font-family: 'Georgia';
+	font-style:inherit;
+}
+
+h1 {
+	color: #ead4aa;
+	font-size: 22px;
+}
+
+h2 {
+	color: #ead4aa;
+	font-size: 18px;
+}
+p {
+	color: #d7cfc8;
+	font-size: 11px;
+}
+.wrapper {
+	width: 1000px;
+}
+
+.header {
+	position: relative;
+}
+.mainmenu{
+	background: #f3f2f1;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 700px;
+	height: 40px;
+
+}
+.lang-list {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.lang-list li {
+	display: inline-block;
+}
+.menu-list li{
+	display: inline-block;
+}
+.auth {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.promo p {
+	color: #dfc04f;
+	font-size: 14pt;
+	font-style: italic;
+
+}
+
