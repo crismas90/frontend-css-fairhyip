@@ -38,7 +38,6 @@ a {
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	width: 700px;
 	height: 40px;
 	text-align: center;
 	padding: 20px 0 0 0;
@@ -51,6 +50,9 @@ a {
 	text-decoration: none;
 	font-family: 'Georgia';
 	color: #461500;
+}
+.mainmenu>.menu-list>.menu-item a:hover {
+    background: url(../images/bg_menu-item-active.png);
 }
 .lang-list li,
 .menu-list li {
@@ -91,8 +93,8 @@ a {
 .promo {
 	width: 980px;
 	height: 160px;
-	background: #5b2f10;
-	/*background: url (../images/bg_promo.png);*/
+
+	background: url(../images/bg_promo.png);
 	padding: 25px 20px 10px 0;
 	border-radius: 0.6em;
 }
