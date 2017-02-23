@@ -25,10 +25,13 @@ a {
 	width: 1000px;
 	margin: 0 auto;
 }
-
+/*HEADER*/
 .header {
 	position: relative;
 	margin: 20px 0 40px 0;
+}
+.logo img {
+	margin: 30px 0 0 50px;
 }
 .mainmenu{
 	background: #f3f2f1;
@@ -39,9 +42,7 @@ a {
 	height: 40px;
 	text-align: center;
 	padding: 20px 0 0 0;
-}
-.logo img{
-	margin: 30px 0 0 50px;
+	border-radius: 0.3em;
 }
 .mainmenu>.menu-list>.menu-item {
 	margin: 0 15px;
@@ -51,41 +52,60 @@ a {
 	font-family: 'Georgia';
 	color: #461500;
 }
+.lang-list li,
+.menu-list li {
+	display: inline-block;
+}
 .lang-list {
 	position: absolute;
 	left: 0;
 	top: 0;
 }
-.lang-list li,
-.menu-list li {
-	display: inline-block;
-}
 .auth {
 	position: absolute;
 	right: 0;
 	top: 0;
+	font-size: 11px;
 }
+.signin {
+	padding: 0 5px;
+}
+ .signin a {
+	border-right: 1.5px solid #d7cfc8;
+	padding: 0 5px;
+}
+
+/*HEADER-end*/
+
+/*MAIN*/
 .content {
 	margin: 0 0 70px 0;
 }
 .promo p {
 	color: #dfc04f;
-	font-size: 14pt;
-	font-style: italic;
+	font-size: 14px;
+	font-style: italic ;
+	font-weight: 600;
 	font-family: 'Georgia';
 }
 .promo {
-	width: 1000px;
-	height: 155px;
+	width: 980px;
+	height: 160px;
 	background: #5b2f10;
-	padding: 25px;
+	/*background: url (../images/bg_promo.png);*/
+	padding: 25px 20px 10px 0;
+	border-radius: 0.6em;
 }
 .promo img {
     float: left;
-	margin: -20px 30px 0 50px;
+	margin: -15px 35px 0 60px;
 }
-.promo h1,p {
-	margin: 0 0 25px 120px;
+.promo p {
+	line-height: 20px;
+	margin: 20px 0 0 140px;
+}
+.promo h1 {
+	margin: 20px 0 0 140px;
 }
 .article{
 	margin: 60px 0 0 40px;
@@ -100,6 +120,9 @@ a {
 .article h2 {
 	margin-bottom: 20px;
 }
+/*MAIN-end*/
+
+/* FOOTER */
 .footer {
 	width: 1000px;
 	height: 75px;
@@ -118,9 +141,30 @@ a {
 	text-decoration: none;
 	font-size: 11px;
 	color: #d7cfc8;
-}
-.footermenu>.menu-list>.menu-item {
-	margin: 0 5px;
+	font-weight: 600;
+	padding: 0;
+	margin: 0;
 }
 
+.footermenu>.menu-list {
+	overflow:hidden;
+	width:100%;
+}
+.footermenu>.menu-list li {
+	border-left: 1.5px solid #d7cfc8;
+	margin-left:-1px;
+}
+.footermenu>.menu-list li.first{border:none}
+
+.footermenu>.menu-list>.menu-item a {
+	padding: 0 5px ;
+}
+.footer div {
+	color: #cdae46;
+	font-size: 11px;
+	margin: 0 0 10px 10px;
+	font-weight: 600;
+}
+
+/* FOOTER-end */
 
