@@ -83,7 +83,10 @@ a:active {
 	background-image: url(../images/bg_menu-item-active.png);
 	background-size: cover;
 }
-
+.active {
+	background-image: url(../images/bg_menu-item-active.png);
+	background-size: cover;
+}
 .lang-list {
 	position: absolute;
 	left: 0;
@@ -132,7 +135,8 @@ a:active {
 	left: 0;
 	margin: 40px 20px 34px 60px;
 }
-.promo h1 {
+.promo h1,
+.article h2 {
 	margin-bottom: 20px;
 }
 .article {
@@ -145,9 +149,6 @@ a:active {
 	top:0;
 	left: 0;
 	margin: 40px 20px 34px 30px;
-}
-.article h2 {
-	margin-bottom: 20px;
 }
 /*MAIN-end*/
 
