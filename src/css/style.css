@@ -83,9 +83,7 @@ a:active {
 	background-image: url(../images/bg_menu-item-active.png);
 	background-size: cover;
 }
-.mainmenu>.menu-list>.menu-item:visited {
-	color: #fff;
-}
+
 .lang-list {
 	position: absolute;
 	left: 0;
