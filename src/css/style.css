@@ -47,6 +47,7 @@ a:active {
     letter-spacing:-1px;
 }
 .lang-list li{
+	color: #d7cfc8;
 	display: inline-block;
 	font-size: 11px;
 	line-height:normal;
@@ -71,15 +72,15 @@ a:active {
 	bottom: 0;
 	text-align: center;
 	border-radius: 0.3em;
-overflow: hidden;
-}
-.mainmenu>.menu-list>.menu-item {
-	padding: 15px 25px;
+	overflow: hidden;
 }
 .mainmenu>.menu-list>.menu-item a {
+	display: block;
+	height: 100%;
 	text-decoration: none;
 	font-family: 'Georgia';
 	color: #461500;
+	padding: 15px 25px;
 }
 
 .mainmenu>.menu-list>.menu-item:active  {
@@ -165,7 +166,7 @@ overflow: hidden;
 	padding-top: 45px;
 	margin-top: 70px;
 	margin-bottom: 20px;
-	font-weight: 700;
+	font-weight: 500;
 }
 .footermenu {
 	position: absolute;
