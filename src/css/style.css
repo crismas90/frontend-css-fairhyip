@@ -71,7 +71,7 @@ a:active {
 	bottom: 0;
 	text-align: center;
 	border-radius: 0.3em;
-
+overflow: hidden;
 }
 .mainmenu>.menu-list>.menu-item {
 	padding: 15px 25px;
@@ -85,6 +85,7 @@ a:active {
 .mainmenu>.menu-list>.menu-item:active  {
 	background-image: url(../images/bg_menu-item-active.png);
 	background-size: cover;
+
 }
 .active {
 	background-image: url(../images/bg_menu-item-active.png);
