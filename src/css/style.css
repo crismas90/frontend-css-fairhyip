@@ -122,11 +122,11 @@ a:active {
 	padding: 30px 20px 30px 145px;
 	border-radius: 0.6em;
 	position: relative;
-	color: #dfc04f;
+	color: rgb( 249, 218, 90 );
 	font-size: 14px;
 	font-style: italic ;
 	font-family: 'Georgia';
-	line-height: 25px;
+	line-height: 1.571;
 }
 .promo:before {
 	content: url(../images/bg_about.png);
