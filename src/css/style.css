@@ -104,15 +104,15 @@ a:active {
 	font-size: 11px;
 	text-transform: lowercase;
 }
-.lang-item:link {}
+
 .lang-item:before,
-.auth-link:before {  /*vertical-line*/
+.auth-link:before { 
 	content: '|';
 	color: #d7cfc8;
 	margin: 0 5px;
 }
 .lang-item:first-child:before,
-.auth-link:first-child:before {content: ''}/*vertical-line*/
+.auth-link:first-child:before {content: ''}
 
 /*HEADER-end*/
 
@@ -150,6 +150,8 @@ a:active {
 	top:0;
 	left: 0;
 	margin: 40px 20px 34px 30px;
+	width: 100px;
+	height: auto;
 }
 /*MAIN-end*/
 
